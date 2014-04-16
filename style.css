@@ -77,6 +77,9 @@ section.recent-posts .other-recent-posts .comments-link a:hover {
 	background: none;
 	border: dotted #918f90;
 	border-width: 3px 0;
+	-webkit-border-image: url('./dots.png') 20% repeat;
+	-moz-border-image: url('./dots.png') 20% repeat;
+	border-image: url('./dots.png') 20% repeat;
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
 	box-shadow: none;
@@ -103,6 +106,9 @@ section.recent-posts .other-recent-posts .comments-link a:hover {
 	background: #ffffff;
 	border: dotted #918f90;
 	border-width: 0 3px;
+	-webkit-border-image: url('./dots.png') 20% repeat;
+	-moz-border-image: url('./dots.png') 20% repeat;
+	border-image: url('./dots.png') 20% repeat;
 }
 
 #access ul ul ul {
@@ -114,6 +120,9 @@ section.recent-posts .other-recent-posts .comments-link a:hover {
 #access ul ul a {
 	background: #ffffff;
 	border-bottom: 3px dotted #918f90;
+	-webkit-border-image: url('./dots.png') 20% repeat;
+	-moz-border-image: url('./dots.png') 20% repeat;
+	border-image: url('./dots.png') 20% repeat;
 	font-weight: normal;
 	height: auto;
 	line-height: 1.4em;
@@ -186,14 +195,21 @@ time.entry-date span:nth-child(2) {
 	margin-right: 0;
 	width: 325px;
 	border-left: 3px dotted #918f90;
+	-webkit-border-image: url('./dots.png') 20% repeat;
+	-moz-border-image: url('./dots.png') 20% repeat;
+	border-image: url('./dots.png') 20% repeat;
 	padding: 0 35px;
 }
 
 #secondary.widget-area .widget {
-	border-top: 3px dotted #918f90;
+	border: 3px dotted #918f90;
+	border-width: 3px 0 0;
+	-webkit-border-image: url('./dots.png') 20% repeat;
+	-moz-border-image: url('./dots.png') 20% repeat;
+	border-image: url('./dots.png') 20% repeat;
 }
 
 #secondary.widget-area .widget:first-child {
-	border-top: none;
+	border-top-width: 0;
 }
 
