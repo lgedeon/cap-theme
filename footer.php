@@ -4,9 +4,6 @@
  *
  * Contains the closing of the id=main div and all content after
  *
- * @package WordPress
- * @subpackage Twenty_Eleven
- * @since Twenty Eleven 1.0
  */
 ?>
 
@@ -15,23 +12,38 @@
 
 </div><!-- #main -->
 
-<footer id="colophon" role="contentinfo">
-
+<?php if ( is_front_page() ) : ?>
+	<section class="home-footer">
 	<?php
-	/*
-	 * A sidebar in the footer? Yep. You can can customize
-	 * your footer with three columns of widgets.
-	 */
-	if ( ! is_404() )
-		get_sidebar( 'footer' );
+		$cap_posts = new WP_Query( 'posts_per_page=1' );
+		$cap_posts->the_post();
+		$cap_post = $cap_posts->post->ID;
 	?>
+		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+			<header class="entry-header">
+				<h1 class="entry-title"><?php the_title(); ?></h1>
 
+				<?php twentyeleven_posted_on(); ?>
+
+			</header><!-- .entry-header -->
+
+			<div class="entry-content">
+				<?php the_excerpt(); ?>
+			</div><!-- .entry-content -->
+		</article><!-- #post-<?php the_ID(); ?> -->
+
+		<?php cap_do_mailchimp() ?>
+
+	</section>
+<?php endif; ?>
+
+</div><!-- #page -->
+
+<footer id="colophon" role="contentinfo">
 	<div id="site-generator">
-		<?php do_action( 'twentyeleven_credits' ); ?>
-		<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'twentyeleven' ) ); ?>" title="<?php esc_attr_e( 'Semantic Personal Publishing Platform', 'twentyeleven' ); ?>"><?php printf( __( 'Proudly powered by %s', 'twentyeleven' ), 'WordPress' ); ?></a>
+		&copy; CAROLE ANN PENNEY 2014 &nbsp; | &nbsp; DESIGN: <a href="http://kristindivona.com/">KRISTIN DIVONA</a> &nbsp; | &nbsp; WEB DEVELOPMENT: LUKE GEDEON &nbsp; | &nbsp; HEADSHOTS: MATT FERRARA PHOTOGRAPHY &nbsp; | &nbsp; POWERED BY WORDPRESS
 	</div>
 </footer><!-- #colophon -->
-</div><!-- #page -->
 
 <?php wp_footer(); ?>
 

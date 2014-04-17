@@ -15,9 +15,13 @@
 
 body, input, textarea {
 	color: #656263;
-	font: 15px Georgia, "Bitstream Charter", serif;
+	font: 15px  "museo-slab", Georgia, "Bitstream Charter", serif;
 	font-weight: 300;
 	line-height: 1.25;
+}
+
+body {
+	padding: 0;
 }
 
 #access, h1, h2, h3, h4, h5, h6 {
@@ -27,7 +31,7 @@ body, input, textarea {
 a,
 #access a.assistive-text:focus,
 #site-title a:active {
-	color: #ec501f;
+	color: #1d74a3;
 }
 
 .entry-title,
@@ -45,8 +49,7 @@ a,
 .entry-header .comments-link a:hover,
 .entry-header .comments-link a:focus,
 .entry-header .comments-link a:active {
-	color: #ec501f;
-	font-weight: bold;
+	color: #1d74a3;
 }
 
 article.feature-image.small .entry-summary p a:hover,
@@ -68,7 +71,9 @@ section.recent-posts .other-recent-posts .comments-link a:hover {
 	border: none;
 }
 
-#main {
+#main,
+.home-footer article,
+.home-footer aside {
 	background: url('./white_back.png');
 	background-size: 100% 100%;
 }
@@ -211,5 +216,51 @@ time.entry-date span:nth-child(2) {
 
 #secondary.widget-area .widget:first-child {
 	border-top-width: 0;
+}
+
+#site-generator {
+	background: #7b7979;
+	border-top: 1px solid #ddd;
+	color: #ffffff;
+	font-size: 14px;
+}
+
+#site-generator a {
+	color: #ffffff;
+	font-weight: normal;
+}
+
+#site-generator a:hover {
+	color: #ffffff;
+}
+
+.home.page .home-footer header,
+.home.page .home-footer .entry-content {
+	margin: 0;
+	padding: 0;
+	width: 70%;
+	float: right;
+	position: relative;
+}
+
+.home-footer .entry-title {
+	font-size: 24px;
+}
+
+.home.page .home-footer article.post {
+	padding: 0;
+	width: 49%;
+	margin: 20px 1% 0 0;
+	float: left;
+}
+
+.home-footer aside {
+	width: 49%;
+	margin: 20px 0 0 1%;
+	float: left;
+	padding: 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
