@@ -44,11 +44,18 @@ function cap_do_mailchimp() {
 	<?php
 }
 
-function cap_add_typekit_header() {
+function cap_add_typekit_header_prod() {
 	?>
 <script type="text/javascript" src="//use.typekit.net/cih8ljz.js"></script>
 <script type="text/javascript">try{Typekit.load();}catch(e){console.log('typekit failed')}</script>
 	<?php
 }
 
-add_filter( 'wp_head', 'cap_add_typekit_header' );
+function cap_add_typekit_header_dev() {
+	?>
+	<script type="text/javascript" src="//use.typekit.net/iuj8kod.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<?php
+}
+
+add_filter( 'wp_head', 'cap_add_typekit_header_dev' );
