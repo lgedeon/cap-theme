@@ -34,6 +34,8 @@
 
 		<?php cap_do_mailchimp() ?>
 
+		<?php cap_do_testimonial() ?>
+
 	</section>
 <?php endif; ?>
 

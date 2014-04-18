@@ -67,3 +67,29 @@ function cap_remove_sidebars() {
 	unregister_sidebar( 'sidebar-5' );
 }
 add_action( 'widgets_init', 'cap_remove_sidebars', 11 );
+
+function cap_create_testimonial_post_type() {
+	register_post_type( 'cap_testimonial',
+		array(
+			'labels' => array(
+				'name' => __( 'Testimonials' ),
+				'singular_name' => __( 'Testimonial' )
+			),
+			'public' => true,
+			'has_archive' => true,
+		)
+	);
+}
+add_action( 'init', 'cap_create_testimonial_post_type' );
+
+function cap_do_testimonial() {
+	$args = array( 'post_type' => 'cap_testimonial', 'posts_per_page' => 1, 'orderby' => 'rand' );
+	$loop = new WP_Query( $args );
+	while ( $loop->have_posts() ) : $loop->the_post();
+		?>
+		<aside class="testimonial">
+			<?php the_content(); ?> - <?php the_title(); ?>
+		</aside>
+		<?php
+	endwhile;
+}
