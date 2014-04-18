@@ -57,5 +57,13 @@ function cap_add_typekit_header_dev() {
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	<?php
 }
-
 add_filter( 'wp_head', 'cap_add_typekit_header_dev' );
+
+function cap_remove_sidebars() {
+	// Unregister some of the parent theme's sidebars
+	unregister_sidebar( 'sidebar-2' );
+	unregister_sidebar( 'sidebar-3' );
+	unregister_sidebar( 'sidebar-4' );
+	unregister_sidebar( 'sidebar-5' );
+}
+add_action( 'widgets_init', 'cap_remove_sidebars', 11 );
