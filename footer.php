@@ -21,7 +21,7 @@
 	?>
 		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 			<header class="entry-header">
-				<h1 class="entry-title"><?php the_title(); ?></h1>
+				<h1 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
 
 				<?php twentyeleven_posted_on(); ?>
 
@@ -32,7 +32,12 @@
 			</div><!-- .entry-content -->
 		</article><!-- #post-<?php the_ID(); ?> -->
 
-		<?php cap_do_mailchimp() ?>
+		<aside id="mc_embed_signup">
+			<?php cap_do_mailchimp() ?>
+			<span style="font-size: 2.5em; font-weight: bold; display: block;">INSPIRATION</span>
+			<span style="font-size: 2.1em;">IN YOUR INBOX!</span>
+			<p style="font-size: 1.2em; font-style: italic;line-height: 1.6em;margin-top: .4em;width: 33%;">Monthly tools and tricks from me to you.</p>
+		</aside>
 
 		<?php cap_do_testimonial() ?>
 

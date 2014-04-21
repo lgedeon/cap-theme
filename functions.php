@@ -22,7 +22,6 @@ function twentyeleven_posted_on() {
 function cap_do_mailchimp() {
 	?>
 <!-- Begin MailChimp Signup Form -->
-<aside id="mc_embed_signup">
 	<form action="http://wordpress.us3.list-manage.com/subscribe/post?u=4fa4dda8a90f268be0ccebe9c&amp;id=8d3eeda600" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 
 		<div class="mc-field-group">
@@ -38,8 +37,6 @@ function cap_do_mailchimp() {
 		<div style="position: absolute; left: -5000px;"><input type="text" name="b_4fa4dda8a90f268be0ccebe9c_8d3eeda600" value=""></div>
 		<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
 	</form>
-</aside>
-
 <!--End mc_embed_signup-->
 	<?php
 }
@@ -88,8 +85,13 @@ function cap_do_testimonial() {
 	while ( $loop->have_posts() ) : $loop->the_post();
 		?>
 		<aside class="testimonial">
-			<?php the_content(); ?> - <?php the_title(); ?>
+			<p style="font-size: 1.2em;margin: 3.7em;line-height: 3em;">KIND WORDS</p>
+			<blockquote><?php the_content(); ?> <span style="font-weight: bold;">&mdash;&nbsp;<?php the_title(); ?></span></blockquote>
 		</aside>
 		<?php
 	endwhile;
+}
+
+function twentyeleven_continue_reading_link() {
+	return '<p><a href="'. esc_url( get_permalink() ) . '">' . __( 'Read More', 'twentyeleven' ) . '</a></p>';
 }
