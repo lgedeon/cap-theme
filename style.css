@@ -129,7 +129,7 @@ section.recent-posts .other-recent-posts .comments-link a:hover {
 #access a {
 	color: #b3b1b4;
 	text-transform: uppercase;
-	font-size: 28px; /* 28.75 but 28 fits better */
+	font-size: 25px; /* 28.75 but 25 fits better */
 	line-height: 1em;
 }
 
@@ -245,6 +245,13 @@ footer.entry-meta,
 	border-image: url('dots.png') 20% repeat;
 }
 
+.cap-dots {
+	border: 3px dotted #b3b1b4;
+	-webkit-border-image: url('dots.png') 20% repeat;
+	-moz-border-image: url('dots.png') 20% repeat;
+	border-image: url('dots.png') 20% repeat;
+}
+
 #secondary.widget-area .widget:first-child {
 	border-top-width: 0;
 }
@@ -276,7 +283,7 @@ footer.entry-meta,
 	background: #ea6327;
 	width: 125%;
 	text-align: center;
-	font-size: 33px;
+	font-size: 25px;
 	color: #fff;
 	line-height: 78px;
 	border-radius: 5px / 50%;
