@@ -479,3 +479,23 @@ div.cap-social a {
 	width: 288px;
 	text-transform: lowercase;
 }
+
+.cap-blue-dot {
+	background: url('blue-dot.png');
+	height: 82px;
+	width: 82px;
+	display: block;
+	line-height: 82px;
+	text-align: center;
+	color: #fff;
+	font-size: 40px;
+}
+
+hr {
+	border: dotted #b3b1b4;
+	border-width: 3px 0 0;
+	-webkit-border-image: url('dots.png') 20% repeat;
+	-moz-border-image: url('dots.png') 20% repeat;
+	border-image: url('dots.png') 20% repeat;
+	background: transparent;
+}
