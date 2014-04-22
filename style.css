@@ -92,7 +92,7 @@ section.recent-posts .other-recent-posts .comments-link a:hover {
 
 #page {
 	background: none;
-	max-width: 1320px;
+	max-width: 1240px;
 }
 
 #branding {
@@ -409,3 +409,25 @@ footer.entry-meta,
 img[class*="align"], img[class*="wp-image-"], #content .gallery .gallery-icon img {
 	border: none;
 }
+
+.home-footer aside.cap-social {
+	width: 551px;
+	margin: 20px auto;
+	background: none;
+	float: none;
+}
+
+/*.home-footer aside*/.cap-social a {
+	width: 1em;
+	height: 1em;
+	margin: 1em .14em;
+	background-size: 7em 2em;
+	background-image: url('social.png');
+	display: block;
+	float: left;
+}
+
+.cap-social a:hover {
+	 background-position-y: -1em;
+ }
+
