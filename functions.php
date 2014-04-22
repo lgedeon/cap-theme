@@ -85,7 +85,7 @@ function cap_do_testimonial() {
 	while ( $loop->have_posts() ) : $loop->the_post();
 		?>
 		<aside class="testimonial">
-			<p style="font-size: 1.2em;margin: 3.7em;line-height: 3em;">KIND WORDS</p>
+			<p style="font-size: 1.2em;margin: 4.5em;line-height: 3em;">KIND WORDS</p>
 			<blockquote><?php the_content(); ?> <span style="font-weight: bold;">&mdash;&nbsp;<?php the_title(); ?></span></blockquote>
 		</aside>
 		<?php
