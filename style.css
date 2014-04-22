@@ -72,6 +72,18 @@ blockquote:before {
 	left: -70px;
 }
 
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=url],
+input[type=number],
+textarea {
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: none;
+}
+
 article.feature-image.small .entry-summary p a:hover,
 .feature-slider a.active {
 	background: #ea6327;
@@ -417,7 +429,7 @@ img[class*="align"], img[class*="wp-image-"], #content .gallery .gallery-icon im
 	float: none;
 }
 
-/*.home-footer aside*/.cap-social a {
+.cap-social a {
 	width: 1em;
 	height: 1em;
 	margin: 1em .14em;
@@ -431,3 +443,39 @@ img[class*="align"], img[class*="wp-image-"], #content .gallery .gallery-icon im
 	 background-position-y: -1em;
  }
 
+div.cap-social a {
+	margin: .5em .14em;
+}
+
+.cap-social-rss a{
+	font-size: 1.1em;
+	color: #b3b1b4;
+	font-style: italic;
+	font-weight: normal;
+	position: relative;
+	margin: 5px 10px 40px 35px;
+	float: left;
+}
+
+.cap-social-rss a:before{
+	content: " ";
+	background: url('rss.png');
+	height: 25px;
+	width: 25px;
+	display: block;
+	position: absolute;
+	left: -30px;
+	top: -5px;
+}
+
+#searchform input[type=text] {
+	background: #eee;
+	text-align: center;
+	font-style: italic;
+	border: 1px solid #ccc;
+	margin: 40px 0;
+	height: 50px;
+	font-size: 30px;
+	width: 288px;
+	text-transform: lowercase;
+}
