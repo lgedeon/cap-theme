@@ -45,6 +45,10 @@ a,
 	text-transform: uppercase;
 }
 
+.singular.page .hentry {
+	padding:0;
+}
+
 .entry-title a:hover,
 .entry-title a:focus,
 .entry-title a:active,
@@ -291,7 +295,7 @@ footer.entry-meta,
 .orange-banner {
 	position: absolute;
 	top: -20px;
-	left: -140px;
+	left: -134px;
 	background: #ea6327;
 	width: 125%;
 	text-align: center;
