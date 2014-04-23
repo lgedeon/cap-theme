@@ -95,3 +95,14 @@ function cap_do_testimonial() {
 function twentyeleven_continue_reading_link() {
 	return '<p><a href="'. esc_url( get_permalink() ) . '">' . __( 'Read More', 'twentyeleven' ) . '</a></p>';
 }
+
+function cap_widget_tag_cloud_args( $args ) {
+	$args['number'] = 20;
+	$args['separator'] = ' ...';
+	$args['smallest'] = 1;
+	$args['largest'] = 1;
+	$args['unit'] = 'em';
+	return $args;
+}
+add_filter( 'widget_tag_cloud_args', 'cap_widget_tag_cloud_args' );
+

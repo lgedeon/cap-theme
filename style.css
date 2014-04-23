@@ -54,12 +54,13 @@ a,
 	color: #ea6327;
 	font-weight: normal;
 	text-transform: uppercase;
+	letter-spacing: 0.1em;
 }
 
 .entry-content h1 { font-size: 28px; }
 .entry-content h2 { font-size: 28px; font-style: italic; }
 .entry-content h3 { font-size: 24px; }
-.entry-content h4 { font-size: 24px; font-style: italic; letter-spacing: 0.1em; }
+.entry-content h4 { font-size: 24px; font-style: italic; }
 .entry-content h5 { font-size: 20px; }
 .entry-content h6 { font-size: 20px; font-style: italic; }
 
@@ -542,4 +543,22 @@ hr {
 	margin: 0 -8.7%;
 	padding: 4%;
 	box-sizing: border-box;
+}
+
+.widget_tag_cloud {
+	padding: 20px 0 10px;
+}
+
+.widget_tag_cloud .widget-title {
+	font-size: 2em;
+	color: #b3b1b4;
+	letter-spacing: normal;
+}
+
+.widget_tag_cloud .tagcloud,
+.widget_tag_cloud .tagcloud a {
+	font-size: 1.7em;
+	font-weight: normal;
+	font-style: italic;
+	color: #b3b1b4;
 }
