@@ -448,7 +448,7 @@ img[class*="align"], img[class*="wp-image-"], #content .gallery .gallery-icon im
  }
 
 div.cap-social a {
-	margin: .5em .14em;
+	margin: .14em;
 }
 
 .cap-social-rss a{
@@ -457,7 +457,7 @@ div.cap-social a {
 	font-style: italic;
 	font-weight: normal;
 	position: relative;
-	margin: 5px 10px 40px 35px;
+	margin: 15px 10px 40px 35px;
 	float: left;
 }
 
@@ -477,7 +477,7 @@ div.cap-social a {
 	text-align: center;
 	font-style: italic;
 	border: 1px solid #ccc;
-	margin: 40px 0;
+	margin: 40px 0 0;
 	height: 50px;
 	font-size: 30px;
 	width: 288px;
