@@ -436,6 +436,20 @@ footer.entry-meta,
 	float: right;
 }
 
+#secondary #mc-embedded-subscribe {
+	background: url('yes_please2.png') no-repeat;
+	width: 240px;
+	height: 53px;
+	float: right;
+}
+
+.cap-orange-box #mc-embedded-subscribe {
+	background: url('yes_please3.png') no-repeat;
+	width: 328px;
+	height: 72px;
+	float: right;
+}
+
 .home-footer time.entry-date {
 	font-size: 12px;
 }
@@ -520,4 +534,12 @@ hr {
 	-moz-border-image: url('dots.png') 20% repeat;
 	border-image: url('dots.png') 20% repeat;
 	background: transparent;
+}
+
+.cap-orange-box {
+	background: #ea6327;
+	width: 117.0%;
+	margin: 0 -8.7%;
+	padding: 4%;
+	box-sizing: border-box;
 }
