@@ -30,6 +30,10 @@ body {
 	font-family: "museo-sans-condensed",'Arial Narrow', sans-serif;
 }
 
+#access a {
+	font-weight: 500;
+}
+
 a,
 #access a.assistive-text:focus,
 #site-title a:active {
