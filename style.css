@@ -25,7 +25,10 @@ body {
 }
 
 #access, h1, h2, h3, h4, h5, h6,
-.home-footer aside, blockquote
+.home-footer aside,
+#mc-embedded-subscribe-form,
+.cap-orange-box,
+blockquote
 {
 	font-family: "museo-sans-condensed",'Arial Narrow', sans-serif;
 }
