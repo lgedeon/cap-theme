@@ -149,9 +149,9 @@ section.recent-posts .other-recent-posts .comments-link a:hover {
 	background: none;
 	border: dotted #b3b1b4;
 	border-width: 3px 0;
-	-webkit-border-image: url('dots.png') 20% repeat;
-	-moz-border-image: url('dots.png') 20% repeat;
-	border-image: url('dots.png') 20% repeat;
+	-webkit-border-image: url('dots.png') 25% repeat;
+	-moz-border-image: url('dots.png') 25% repeat;
+	border-image: url('dots.png') 25% repeat;
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
 	box-shadow: none;
@@ -181,9 +181,9 @@ section.recent-posts .other-recent-posts .comments-link a:hover {
 	background: #ffffff;
 	border: dotted #b3b1b4;
 	border-width: 0 3px;
-	-webkit-border-image: url('dots.png') 20% repeat;
-	-moz-border-image: url('dots.png') 20% repeat;
-	border-image: url('dots.png') 20% repeat;
+	-webkit-border-image: url('dots.png') 25% repeat;
+	-moz-border-image: url('dots.png') 25% repeat;
+	border-image: url('dots.png') 25% repeat;
 }
 
 #access ul ul ul {
@@ -195,9 +195,9 @@ section.recent-posts .other-recent-posts .comments-link a:hover {
 #access ul ul a {
 	background: #ffffff;
 	border-bottom: 3px dotted #b3b1b4;
-	-webkit-border-image: url('dots.png') 20% repeat;
-	-moz-border-image: url('dots.png') 20% repeat;
-	border-image: url('dots.png') 20% repeat;
+	-webkit-border-image: url('dots.png') 25% repeat;
+	-moz-border-image: url('dots.png') 25% repeat;
+	border-image: url('dots.png') 25% repeat;
 	font-weight: normal;
 	height: auto;
 	line-height: 1.4em;
@@ -535,9 +535,9 @@ div.cap-social a {
 hr {
 	border: dotted #b3b1b4;
 	border-width: 3px 0 0;
-	-webkit-border-image: url('dots.png') 20% repeat;
-	-moz-border-image: url('dots.png') 20% repeat;
-	border-image: url('dots.png') 20% repeat;
+	-webkit-border-image: url('dots.png') 25% repeat;
+	-moz-border-image: url('dots.png') 25% repeat;
+	border-image: url('dots.png') 25% repeat;
 	background: transparent;
 }
 
