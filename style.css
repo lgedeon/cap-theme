@@ -372,6 +372,7 @@ footer.entry-meta,
 
 .home-footer time.entry-date {
 	left: -104px;
+	font-size: 12px;
 }
 
 .home.page .home-footer article.post {
@@ -455,8 +456,8 @@ footer.entry-meta,
 	float: right;
 }
 
-.home-footer time.entry-date {
-	font-size: 12px;
+.clear {
+	clear: both;
 }
 
 img[class*="align"], img[class*="wp-image-"], #content .gallery .gallery-icon img {
@@ -566,3 +567,35 @@ hr {
 	font-style: italic;
 	color: #b3b1b4;
 }
+
+@media ( max-width: 1320px ) {
+	time.entry-date {
+		left: -96px;
+		font-size: 12px;
+	}
+}
+
+@media ( max-width: 1120px ) {
+	time.entry-date {
+		font-size: 14px;
+		color: #ea6327;
+		background-color: #ffffff;
+		display: inline;
+		position: relative;
+		left: 0;
+		top: 0;
+	}
+
+	time.entry-date span {
+		display: inline;
+	}
+
+	time.entry-date span:nth-child(2) {
+		margin: 0 6px;
+		font-size: 1em;
+	}
+	time.entry-date span:nth-child(2):after {
+		content: ",";
+	}
+}
+
