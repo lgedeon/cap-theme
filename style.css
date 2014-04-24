@@ -451,8 +451,9 @@ footer.entry-meta,
 
 .cap-orange-box #mc-embedded-subscribe {
 	background: url('yes_please3.png') no-repeat;
-	width: 328px;
-	height: 72px;
+	margin-top: -190px;
+	width: 207px;
+	height: 208px;
 	float: right;
 }
 
