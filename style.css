@@ -569,6 +569,14 @@ hr {
 	color: #b3b1b4;
 }
 
+.comment-content table {
+	border-bottom: none;
+}
+
+.entry-content td {
+	border-top: none;
+}
+
 @media ( max-width: 1320px ) {
 	time.entry-date {
 		left: -96px;
