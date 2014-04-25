@@ -130,3 +130,48 @@ function cap_body_classes( $classes ) {
 }
 add_filter( 'body_class', 'cap_body_classes', 11 );
 
+
+class CAP_Testimonial_Widget extends WP_Widget {
+
+	function CAP_Testimonial_Widget() {
+		$widget_ops = array( 'classname' => 'widget_cap_testimonial', 'description' => __( 'Use this widget to show a single random testimonial', 'twentyeleven' ) );
+		$this->WP_Widget( 'widget_cap_testimonial', __( 'Testimonial Widget', 'twentyeleven' ), $widget_ops );
+		$this->alt_option_name = 'widget_cap_testimonial';
+	}
+
+	function widget( $args, $instance ) {
+		if ( ! isset( $args['widget_id'] ) )
+			$args['widget_id'] = null;
+
+		extract( $args, EXTR_SKIP );
+		$title = $instance['title'];
+
+		echo $before_widget;
+		echo $before_title;
+		echo $title;
+		echo $after_title;
+
+		cap_do_testimonial();
+
+		echo $after_widget;
+		wp_reset_postdata();
+
+	}
+
+	function update( $new_instance, $old_instance ) {
+		$instance = $old_instance;
+		$instance['title'] = strip_tags( $new_instance['title'] );
+
+		return $instance;
+	}
+
+	function form( $instance ) {
+		$title = isset( $instance['title']) ? esc_attr( $instance['title'] ) : '';
+		?>
+		<p><label for="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>"><?php _e( 'Title:', 'twentyeleven' ); ?></label>
+			<input class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>" name="<?php echo esc_attr( $this->get_field_name( 'title' ) ); ?>" type="text" value="<?php echo esc_attr( $title ); ?>" /></p>
+	<?php
+	}
+}
+
+
