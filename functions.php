@@ -106,3 +106,27 @@ function cap_widget_tag_cloud_args( $args ) {
 }
 add_filter( 'widget_tag_cloud_args', 'cap_widget_tag_cloud_args' );
 
+function cap_widgets_init() {
+
+	register_widget( 'CAP_Testimonial_Widget' );
+
+	register_sidebar( array(
+		'name' => __( 'Short Sidebar', 'twentyeleven' ),
+		'id' => 'sidebar-s',
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget' => "</aside>",
+		'before_title' => '<h3 class="widget-title">',
+		'after_title' => '</h3>',
+	) );
+}
+add_action( 'widgets_init', 'cap_widgets_init' );
+
+function cap_body_classes( $classes ) {
+
+	if ( is_page_template( 'shortsidebar-page.php' ) )
+		$classes = array_diff( $classes, ['singular'] );
+
+	return $classes;
+}
+add_filter( 'body_class', 'cap_body_classes', 11 );
+
