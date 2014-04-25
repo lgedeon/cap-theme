@@ -270,25 +270,25 @@ footer.entry-meta,
 	margin-right: 0;
 	width: 325px;
 	border-left: 3px dotted #b3b1b4;
-	-webkit-border-image: url('dots.png') 20% repeat;
-	-moz-border-image: url('dots.png') 20% repeat;
-	border-image: url('dots.png') 20% repeat;
+	-webkit-border-image: url('dots.png') 25% repeat;
+	-moz-border-image: url('dots.png') 25% repeat;
+	border-image: url('dots.png') 25% repeat;
 	padding: 0 35px;
 }
 
 #secondary.widget-area .widget {
 	border: 3px dotted #b3b1b4;
 	border-width: 3px 0 0;
-	-webkit-border-image: url('dots.png') 20% repeat;
-	-moz-border-image: url('dots.png') 20% repeat;
-	border-image: url('dots.png') 20% repeat;
+	-webkit-border-image: url('dots.png') 25% repeat;
+	-moz-border-image: url('dots.png') 25% repeat;
+	border-image: url('dots.png') 25% repeat;
 }
 
 .cap-dots {
 	border: 3px dotted #b3b1b4;
-	-webkit-border-image: url('dots.png') 20% repeat;
-	-moz-border-image: url('dots.png') 20% repeat;
-	border-image: url('dots.png') 20% repeat;
+	-webkit-border-image: url('dots.png') 25% repeat;
+	-moz-border-image: url('dots.png') 25% repeat;
+	border-image: url('dots.png') 25% repeat;
 }
 
 #secondary.widget-area .widget:first-child {
