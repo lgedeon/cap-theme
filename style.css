@@ -79,6 +79,10 @@ a,
 	padding:0;
 }
 
+.hentry {
+	border-bottom: none;
+}
+
 .entry-title a:hover,
 .entry-title a:focus,
 .entry-title a:active,
@@ -266,11 +270,18 @@ footer.entry-meta,
 }
 
 #primary {
-	margin: 0 -400px 0 0;
+	float: left;
+	width: 100%;
+	margin-right: -400px;
+}
+
+#content {
+	margin-right: 420px;
+	width: initial;
 }
 
 #secondary {
-	float: right;
+	float: left;
 	margin-right: 0;
 	width: 325px;
 	border-left: 3px dotted #b3b1b4;
@@ -286,6 +297,11 @@ footer.entry-meta,
 	-webkit-border-image: url('dots.png') 25% repeat;
 	-moz-border-image: url('dots.png') 25% repeat;
 	border-image: url('dots.png') 25% repeat;
+}
+
+/* class .cap-superwide makes a div extend under a short-sidebar */
+.cap-superwide {
+	margin-right: -380px;
 }
 
 .cap-dots {
@@ -617,3 +633,8 @@ hr {
 	}
 }
 
+@media (max-width: 800px) {
+	#secondary {
+		border: none;
+	}
+}
