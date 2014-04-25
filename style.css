@@ -43,6 +43,10 @@ a,
 	color: #1d74a3;
 }
 
+.clear {
+	clear: both;
+}
+
 .entry-title,
 .entry-title a,
 .singular .entry-title {
@@ -376,7 +380,8 @@ footer.entry-meta,
 }
 
 .home.page .home-footer article.post {
-	padding: 0;
+	padding: 0 10px 0;
+	box-sizing: border-box;
 	width: 49%;
 	margin: 20px 1% 0 0;
 	float: left;
@@ -393,6 +398,10 @@ footer.entry-meta,
 	box-sizing: border-box;
 	min-height: 270px;
 	color: #ea6327;
+}
+
+.home-footer aside .clear {
+	clear: none;
 }
 
 .home-footer aside.testimonial {
@@ -459,10 +468,6 @@ footer.entry-meta,
 	width: 207px;
 	height: 208px;
 	float: right;
-}
-
-.clear {
-	clear: both;
 }
 
 img[class*="align"], img[class*="wp-image-"], #content .gallery .gallery-icon img {
