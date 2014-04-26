@@ -458,8 +458,8 @@ footer.entry-meta,
 
 #mc-embedded-subscribe:hover,
 #mc-embedded-subscribe:focus {
-	-webkit-filter: drop-shadow(5px 5px 5px #b3b1b4);
-	filter: drop-shadow(5px 5px 5px #b3b1b4);
+	-webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,.4));
+	filter: drop-shadow(5px 5px 5px rgba(0,0,0,.4));
 	filter: url(shadow.svg#drop-shadow); /* drop this as soon as moz supports the line above */
 	-ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=5, OffY=5, Color='#b3b1b4')";
 }
@@ -484,6 +484,10 @@ footer.entry-meta,
 	width: 207px;
 	height: 208px;
 	float: right;
+}
+
+.cap-orange-box #mc-embedded-subscribe:hover {
+	background-position-y: -208px;
 }
 
 img[class*="align"], img[class*="wp-image-"], #content .gallery .gallery-icon img {
