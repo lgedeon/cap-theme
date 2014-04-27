@@ -303,7 +303,8 @@ footer.entry-meta,
 
 /* class .cap-superwide makes a div extend under a short-sidebar */
 .cap-superwide {
-	margin-right: -380px;
+	margin-right: -383px;
+	background: #ffffff;
 }
 
 .cap-dots {
@@ -498,8 +499,9 @@ img[class*="align"], img[class*="wp-image-"], #content .gallery .gallery-icon im
 
 .home-footer aside.cap-social {
 	width: 551px;
+	padding: 0;
 	margin: 20px auto;
-	background: none;
+	border: none;
 	float: none;
 }
 
