@@ -149,8 +149,10 @@ section.recent-posts .other-recent-posts .comments-link a:hover {
 #main,
 .home-footer article,
 .home-footer aside {
-	background: url('white_back.png');
-	background-size: 100% 100%;
+	border: 10px solid #ffffff;
+	-webkit-border-image: url('white_back.png') 10 fill stretch;
+	-moz-border-image: url('white_back.png') 10 fill stretch;
+	border-image: url('white_back.png') 10 fill stretch;
 }
 
 #access {
