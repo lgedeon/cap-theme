@@ -27,7 +27,6 @@ body {
 #access, h1, h2, h3, h4, h5, h6,
 .home-footer aside,
 #mc-embedded-subscribe-form,
-.cap-orange-box,
 blockquote
 {
 	font-family: "museo-sans-condensed",'Arial Narrow', sans-serif;
@@ -487,7 +486,7 @@ footer.entry-meta,
 
 .cap-orange-box #mc-embedded-subscribe {
 	background: url('yes_please3.png') no-repeat;
-	margin-top: -190px;
+	margin-top: -207px;
 	width: 207px;
 	height: 208px;
 	float: right;
@@ -495,6 +494,10 @@ footer.entry-meta,
 
 .cap-orange-box #mc-embedded-subscribe:hover {
 	background-position-y: -208px;
+}
+
+.cap-orange-box p {
+	margin: .625em;
 }
 
 img[class*="align"], img[class*="wp-image-"], #content .gallery .gallery-icon img {
