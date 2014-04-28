@@ -336,9 +336,10 @@ footer.entry-meta,
 	text-align: center;
 	font-size: 25px;
 	color: #fff;
-	line-height: 78px;
+	line-height: 48px;
 	border-radius: 5px / 50%;
 	font-style: italic;
+	padding: 15px 0;
 }
 
 .orange-banner:before {
@@ -642,6 +643,18 @@ hr {
 		content: ",";
 	}
 
+	.home-footer time.entry-date {
+		display: none;
+	}
+
+	.home-footer .entry-title a {
+		font-size: 24px;
+	}
+
+	.home.page .home-footer header, .home.page .home-footer .entry-content {
+		width: 95%;
+	}
+
 	.orange-banner {
 		position: relative;
 		top: 0;
@@ -717,5 +730,15 @@ hr {
 		display: block;
 		width: 100% !important;
 		padding: 0 !important;
+	}
+
+	.home.page .home-footer article.post,
+	.home.page .home-footer #mc_embed_signup {
+		width: 100%;
+		margin: 20px 0;
+	}
+
+	.home-footer aside.cap-social {
+		width: 100%;
 	}
 }
