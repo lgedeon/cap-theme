@@ -57,7 +57,7 @@
 
 <footer id="colophon" role="contentinfo">
 	<div id="site-generator">
-		&copy; CAROLE ANN PENNEY 2014 &nbsp; | &nbsp; DESIGN: <a href="http://kristindivona.com/">KRISTIN DIVONA</a> &nbsp; | &nbsp; WEB DEVELOPMENT: LUKE GEDEON &nbsp; | &nbsp; HEADSHOTS: MATT FERRARA PHOTOGRAPHY &nbsp; | &nbsp; POWERED BY WORDPRESS
+		&copy; CAROLE ANN PENNEY 2014 &nbsp; | &nbsp; DESIGN:&nbsp;<a href="http://kristindivona.com/">KRISTIN&nbsp;DIVONA</a> &nbsp; | &nbsp; WEB&nbsp;DEVELOPMENT:&nbsp;<a href="http://luke.gedeon.name">LUKE&nbsp;GEDEON</a> &nbsp; | &nbsp; HEADSHOTS:&nbsp;<a href="http://www.mattferraraphotography.com​">MATT&nbsp;FERRARA&nbsp;PHOTOGRAPHY</a> &nbsp; | &nbsp; POWERED&nbsp;BY&nbsp;<a href="http://wordpress.org">WORDPRESS</a>
 	</div>
 </footer><!-- #colophon -->
 
