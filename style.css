@@ -24,7 +24,7 @@ body {
 	padding: 0;
 }
 
-#access, h1, h2, h3, h4, h5, h6,
+#access, h1, h2,
 .home-footer aside,
 #mc-embedded-subscribe-form,
 blockquote
@@ -55,24 +55,10 @@ a,
 	text-transform: uppercase;
 }
 
-.entry-content h1,
-.entry-content h2,
-.entry-content h3,
-.entry-content h4,
-.entry-content h5,
-.entry-content h6 {
-	color: #ea6327;
-	font-weight: normal;
-	text-transform: uppercase;
-	letter-spacing: 0.1em;
-}
-
-.entry-content h1 { font-size: 28px; }
-.entry-content h2 { font-size: 28px; font-style: italic; }
-.entry-content h3 { font-size: 24px; }
-.entry-content h4 { font-size: 24px; font-style: italic; }
-.entry-content h5 { font-size: 20px; }
-.entry-content h6 { font-size: 20px; font-style: italic; }
+.entry-content h1 { font-size: 28px; color: #ea6327; font-weight: normal; text-transform: uppercase; letter-spacing: 0.1em; }
+.entry-content h2 { font-size: 28px; color: #ea6327; font-weight: normal; text-transform: capitalize; letter-spacing: 0.1em; }
+.entry-content h3 { font-size: 22px; color: #393536; font-weight: bold;   text-transform: none; }
+.entry-content h4 { font-size: 22px; color: #393536; font-weight: normal; }
 
 .singular.page .hentry {
 	padding:0;
