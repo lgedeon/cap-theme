@@ -595,7 +595,7 @@ hr {
 	color: #b3b1b4;
 }
 
-.comment-content table {
+.entry-content table {
 	border-bottom: none;
 }
 
@@ -707,5 +707,15 @@ hr {
 
 	#main #primary {
 		margin: 50px 0 0;
+	}
+
+	.cap-superwide {
+		margin-right: 0;
+	}
+
+	.entry-content td {
+		display: block;
+		width: 100% !important;
+		padding: 0 !important;
 	}
 }
