@@ -237,6 +237,10 @@ section.recent-posts .other-recent-posts .comments-link a:hover {
 	color: #ea6327;
 }
 
+#hamburger {
+	display: none;
+}
+
 time.entry-date {
 	color: #ffffff;
 	background-color: #ea6327;
@@ -279,7 +283,7 @@ footer.entry-meta,
 
 #content {
 	margin-right: 420px;
-	width: initial;
+	width: auto;
 }
 
 #secondary {
@@ -618,6 +622,11 @@ hr {
 }
 
 @media ( max-width: 1120px ) {
+	#access a {
+		font-size: 22px;
+		padding: 0 0.625em;
+	}
+
 	time.entry-date {
 		font-size: 14px;
 		color: #ea6327;
@@ -639,10 +648,67 @@ hr {
 	time.entry-date span:nth-child(2):after {
 		content: ",";
 	}
+
+	.orange-banner {
+		position: relative;
+		top: 0;
+		left: 0;
+		width: 100%;
+	}
+
+	.orange-banner:before,
+	.orange-banner:after {
+		display: none;
+	}
+
+	.home #main #content {
+		margin: 0;
+	}
 }
 
 @media (max-width: 800px) {
+	#main {
+		position: relative;
+	}
+
+	#access {
+		padding: 10px;
+		display: none;
+	}
+
+	#hamburger {
+		display: block;
+		position: absolute;
+		right: 10px;
+		top: 20px;
+		font-size: 40px;
+		width: 120px;
+		text-align: right;
+	}
+
+	#hamburger:hover + #access,
+	#access:hover {
+		display: block;
+	}
+
+	#access li {
+		float: none;
+	}
+
+	#access a {
+		font-size: 28px;
+		line-height: 1.5em;
+	}
+
 	#secondary {
 		border: none;
+	}
+
+	.home .entry-content div {
+		width: 100% !important;
+	}
+
+	#main #primary {
+		margin: 50px 0 0;
 	}
 }
