@@ -36,7 +36,7 @@
 			<?php cap_do_mailchimp() ?>
 			<span style="font-size: 2.5em; font-weight: bold; display: block;">INSPIRATION</span>
 			<span style="font-size: 2.1em;">IN YOUR INBOX!</span>
-			<p style="font-size: 1.2em; font-style: italic;line-height: 1.6em;margin-top: .4em;width: 33%;">Monthly tools and tricks from me to you.</p>
+			<p style="font-size: 1.1em; font-style: italic;line-height: 1.6em;margin-top: .4em;">Monthly tools and tricks from me&nbsp;to&nbsp;you.</p>
 		</aside>
 
 		<?php cap_do_testimonial() ?>
