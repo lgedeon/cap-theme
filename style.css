@@ -418,14 +418,25 @@ footer.entry-meta,
 	margin: 20px 0 0;
 }
 
-.home-footer aside.testimonial p {
+aside.testimonial p {
 	display: inline;
+}
+
+.home-footer aside.testimonial h3 {
+	font-size: 1.2em;
+	margin: 0 4.5em;
+	line-height: 3em;
+	text-transform: uppercase;
 }
 
 .home-footer .testimonial blockquote {
 	color: #656263;
 	font-size: 1.8em;
 	line-height: 1.6em;
+}
+
+.home-footer .testimonial .name {
+	font-weight: bold;
 }
 
 .home #mc-embedded-subscribe-form .mc-field-group input {
@@ -603,6 +614,49 @@ hr {
 
 .entry-content td {
 	border-top: none;
+}
+
+#secondary .testimonial {
+	background: #cad9e6;
+	border-radius: 15px;
+	padding: 15px;
+	margin: 40px 0;
+	font-size: 18px;
+}
+
+#secondary .testimonial h3 {
+	padding: 5px 0;
+	margin-bottom: 12px;
+	border-bottom: 3px dotted #b3b1b4;
+	-webkit-border-image: url('dots.png') 25% repeat;
+	-moz-border-image: url('dots.png') 25% repeat;
+	border-image: url('dots.png') 25% repeat;
+	text-transform: lowercase;
+	font-size: 27px;
+	font-family: "museo-sans-condensed",'Arial Narrow', sans-serif;
+	font-style: italic;
+	letter-spacing: .12em;
+}
+
+#secondary .testimonial blockquote {
+	margin: 0 0 15px;
+	font-family: "museo-slab", serif;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 1.5em;
+}
+
+#secondary .testimonial blockquote:before {
+	display: none;
+}
+
+#secondary .widget_cap_testimonial:after {
+	content: " ";
+	display: block;
+	width: 101px;
+	height: 43px;
+	background: url('blue_quote.png');
+	margin: -40px 0 0 -8px;
 }
 
 @media ( max-width: 1320px ) {
