@@ -34,6 +34,7 @@ blockquote
 
 #access a {
 	font-weight: 500;
+	padding: 0 .9em;
 }
 
 a,
@@ -125,6 +126,7 @@ section.recent-posts .other-recent-posts .comments-link a:hover {
 #page {
 	background: none;
 	max-width: 1240px;
+	width: 90%;
 }
 
 #branding {
@@ -163,7 +165,7 @@ section.recent-posts .other-recent-posts .comments-link a:hover {
 #access a {
 	color: #b3b1b4;
 	text-transform: uppercase;
-	font-size: 25px; /* 28.75 but 25 fits better */
+	font-size: 28px; /* 28.75 but 28 fits better */
 	line-height: 1em;
 }
 
@@ -330,9 +332,9 @@ footer.entry-meta,
 .orange-banner {
 	position: absolute;
 	top: -20px;
-	left: -134px;
+	left: -13%;
 	background: #ea6327;
-	width: 125%;
+	width: 126%;
 	text-align: center;
 	font-size: 25px;
 	color: #fff;
@@ -345,7 +347,7 @@ footer.entry-meta,
 .orange-banner:before {
 	content:" ";
 	display: block;
-	width: 99.3%;
+	width: 99.1%;
 	height: 6px;
 	background: #ea6327;
 	top: -6px;
@@ -357,7 +359,7 @@ footer.entry-meta,
 .orange-banner:after {
 	content: " ";
 	display: block;
-	width: 99.3%;
+	width: 99.1%;
 	height: 0px;
 	border-color: #a74516 transparent transparent;
 	top: 100%;
@@ -660,8 +662,12 @@ hr {
 }
 
 @media ( max-width: 1320px ) {
+	#access a {
+		font-size: 25px;
+	}
+
 	time.entry-date {
-		left: -96px;
+		left: -124px;
 		font-size: 12px;
 	}
 
@@ -672,7 +678,7 @@ hr {
 
 @media ( max-width: 1120px ) {
 	#access a {
-		font-size: 22px;
+		font-size: 20px;
 		padding: 0 0.625em;
 	}
 
@@ -711,15 +717,13 @@ hr {
 	}
 
 	.orange-banner {
-		position: relative;
-		top: 0;
-		left: 0;
-		width: 100%;
+		left: -4%;
+		width: 108%;
 	}
 
 	.orange-banner:before,
 	.orange-banner:after {
-		display: none;
+		width: 98.9%;
 	}
 
 	.home #main #content {
@@ -754,6 +758,18 @@ hr {
 	#hamburger:hover + #access,
 	#access:hover {
 		display: block;
+	}
+	
+	.home .entry-content div.orange-banner {
+		position: relative;
+		top: 0;
+		left: 0;
+		margin: -10px -3% -50px;
+		width: 106% !important;
+	}
+	.orange-banner:before,
+	.orange-banner:after {
+		display: none;
 	}
 
 	#access li {
