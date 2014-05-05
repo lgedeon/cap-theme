@@ -43,12 +43,12 @@
 
 		<aside class="cap-social" style="font-size: 57px;">
 			<a href="mailto:test@mail.com?Subject=From%20your%20Website" target="_top"></a>
-			<a href="http://caroleannctd.tumblr.com/" style="background-position-x: -1em;"></a>
-			<a href="http://www.instagram.com/caroleannctd" style="background-position-x: -2em;"></a>
-			<a href="https://www.facebook.com/caroleannctd" style="background-position-x: -3em;"></a>
-			<a href="http://www.pinterest.com/caroleannctd" style="background-position-x: -4em;"></a>
-			<a href="www.flickr.com/photos/connectthedotscrafts/" style="background-position-x: -5em;"></a>
-			<a href="http://lnkd.in/3J2vV8" style="background-position-x: -6em;"></a>
+			<a href="http://caroleannctd.tumblr.com/" target="_blank" style="background-position-x: -1em;"></a>
+			<a href="http://www.instagram.com/caroleannctd" target="_blank" style="background-position-x: -2em;"></a>
+			<a href="https://www.facebook.com/caroleannctd" target="_blank" style="background-position-x: -3em;"></a>
+			<a href="http://www.pinterest.com/caroleannctd" target="_blank" style="background-position-x: -4em;"></a>
+			<a href="www.flickr.com/photos/connectthedotscrafts/" target="_blank" style="background-position-x: -5em;"></a>
+			<a href="http://lnkd.in/3J2vV8" target="_blank" style="background-position-x: -6em;"></a>
 		</aside>
 	</section>
 <?php endif; ?>
