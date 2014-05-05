@@ -464,8 +464,8 @@ aside.testimonial p {
 
 #mc-embedded-subscribe:hover,
 #mc-embedded-subscribe:focus {
-	-webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,.4));
-	filter: drop-shadow(5px 5px 5px rgba(0,0,0,.4));
+	-webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,.1));
+	filter: drop-shadow(5px 5px 5px rgba(0,0,0,.1));
 	filter: url(shadow.svg#drop-shadow); /* drop this as soon as moz supports the line above */
 	-ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=5, OffY=5, Color='#b3b1b4')";
 }
@@ -474,8 +474,14 @@ aside.testimonial p {
 	background: url('yes_please.png') no-repeat;
 	width: 328px;
 	height: 72px;
+	font-size: 72px;
 	float: right;
 	margin-left: 50px;
+}
+
+.home #mc-embedded-subscribe:hover,
+.home #mc-embedded-subscribe:focus {
+	background-position-y: -1em;
 }
 
 #secondary #mc-embedded-subscribe {

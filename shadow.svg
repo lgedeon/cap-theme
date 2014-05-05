@@ -2,7 +2,7 @@
 <filter id="drop-shadow">
 <feGaussianBlur in="SourceAlpha" stdDeviation="2.2"/>
 <feOffset dx="5" dy="5" result="offsetblur"/>
-<feFlood flood-color="rgba(0,0,0,0.5)"/>
+<feFlood flood-color="rgba(0,0,0,0.1)"/>
 <feComposite in2="offsetblur" operator="in"/>
 <feMerge>
 <feMergeNode/>
