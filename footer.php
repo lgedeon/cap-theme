@@ -42,7 +42,7 @@
 		<?php cap_do_testimonial() ?>
 
 		<aside class="cap-social" style="font-size: 57px;">
-			<a href="mailto:test@mail.com?Subject=From%20your%20Website" target="_top"></a>
+			<a href="http://eepurl.com/MdPm1" target="_blank"></a>
 			<a href="http://caroleannctd.tumblr.com/" target="_blank" style="background-position-x: -1em;"></a>
 			<a href="http://www.instagram.com/caroleannctd" target="_blank" style="background-position-x: -2em;"></a>
 			<a href="https://www.facebook.com/caroleannctd" target="_blank" style="background-position-x: -3em;"></a>
