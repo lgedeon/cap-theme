@@ -466,24 +466,25 @@ aside.testimonial p {
 	-ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=5, OffY=5, Color='#b3b1b4')";
 }
 
-.home #mc-embedded-subscribe {
-	background: url('yes_please.png') no-repeat;
+#mc-embedded-subscribe {
+	background: url('yes_please.png');
 	width: 328px;
 	height: 72px;
 	font-size: 72px;
 	float: right;
 	margin-left: 50px;
+	background-size: 100%;
 }
 
-.home #mc-embedded-subscribe:hover,
-.home #mc-embedded-subscribe:focus {
+#mc-embedded-subscribe:hover,
+#mc-embedded-subscribe:focus {
 	background-position-y: -1em;
 }
 
 #secondary #mc-embedded-subscribe {
-	background: url('yes_please2.png') no-repeat;
-	width: 240px;
+	width: 242px;
 	height: 53px;
+	font-size: 53px;
 	float: right;
 }
 
