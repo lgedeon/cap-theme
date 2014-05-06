@@ -760,7 +760,9 @@ hr {
 	}
 
 	#hamburger:hover + #access,
-	#access:hover {
+	#hamburger:focus + #access,
+	#access:hover,
+	#access:focus {
 		display: block;
 	}
 	
