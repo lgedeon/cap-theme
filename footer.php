@@ -47,7 +47,7 @@
 			<a href="http://www.instagram.com/caroleannctd" target="_blank" style="background-position-x: -2em;"></a>
 			<a href="https://www.facebook.com/caroleannctd" target="_blank" style="background-position-x: -3em;"></a>
 			<a href="http://www.pinterest.com/caroleannctd" target="_blank" style="background-position-x: -4em;"></a>
-			<a href="www.flickr.com/photos/connectthedotscrafts/" target="_blank" style="background-position-x: -5em;"></a>
+			<a href="http://twitter.com/caroleannctd" target="_blank" style="background-position-x: -5em;"></a>
 			<a href="http://lnkd.in/3J2vV8" target="_blank" style="background-position-x: -6em;"></a>
 		</aside>
 	</section>
