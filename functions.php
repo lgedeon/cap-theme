@@ -174,4 +174,10 @@ class CAP_Testimonial_Widget extends WP_Widget {
 	}
 }
 
+add_image_size( 'sidebar_post_thumbnail', 325, 9999, false );
 
+function cap_featured_image_in_sidebar () {
+	$page_id = get_queried_object_id();
+	echo get_the_post_thumbnail( $page_id, 'sidebar_post_thumbnail' );
+}
+add_action( 'dynamic_sidebar_before', 'cap_featured_image_in_sidebar' );

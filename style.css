@@ -284,7 +284,7 @@ footer.entry-meta,
 	padding: 0 35px;
 }
 
-#secondary.widget-area .widget {
+#secondary.widget-area .widget + .widget {
 	border: 3px dotted #b3b1b4;
 	border-width: 3px 0 0;
 	-webkit-border-image: url('dots.png') 25% repeat;
@@ -303,10 +303,6 @@ footer.entry-meta,
 	-webkit-border-image: url('dots.png') 25% repeat;
 	-moz-border-image: url('dots.png') 25% repeat;
 	border-image: url('dots.png') 25% repeat;
-}
-
-#secondary.widget-area .widget:first-child {
-	border-top-width: 0;
 }
 
 #site-generator {
