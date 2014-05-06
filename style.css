@@ -530,7 +530,8 @@ img[class*="align"], img[class*="wp-image-"], #content .gallery .gallery-icon im
 }
 
 .cap-social a:hover {
-	 background-position-y: -1em;
+	background-position-y: -1em;
+	text-decoration: none;
  }
 
 div.cap-social a {
