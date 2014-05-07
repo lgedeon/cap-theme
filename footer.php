@@ -61,6 +61,13 @@
 	</div>
 </footer><!-- #colophon -->
 
+<script type="application/javascript">
+	function cap_hamburger(){
+		this.className=("active"==this.className.substr(0, 6))?"":"active";
+	}
+	document.querySelector('#hamburger').addEventListener('click', cap_hamburger )
+</script>
+
 <?php wp_footer(); ?>
 
 </body>
