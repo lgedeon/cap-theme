@@ -15,7 +15,7 @@
 
 body, input, textarea {
 	color: #656263;
-	font: 19px  "museo-slab", serif; /* 18.75 if we go responsive */
+	font: 15px  "museo-slab", serif; /* site was designed at larger size and always shown to client at 75% zoom */
 	font-weight: 300;
 	line-height: 1.25;
 }
@@ -126,7 +126,7 @@ section.recent-posts .other-recent-posts .comments-link a:hover {
 #page {
 	background: none;
 	max-width: 1240px;
-	width: 90%;
+	width: 79%;
 }
 
 #branding {
@@ -165,7 +165,7 @@ section.recent-posts .other-recent-posts .comments-link a:hover {
 #access a {
 	color: #b3b1b4;
 	text-transform: uppercase;
-	font-size: 28px; /* 28.75 but 28 fits better */
+	font-size: 26px;
 	line-height: 1em;
 }
 
@@ -667,7 +667,7 @@ hr {
 
 @media ( max-width: 1320px ) {
 	#access a {
-		font-size: 25px;
+		font-size: 22px;
 	}
 
 	time.entry-date {
@@ -740,6 +740,10 @@ hr {
 }
 
 @media (max-width: 800px) {
+	#page{
+		width: 96%;
+	}
+
 	#main {
 		position: relative;
 	}
@@ -816,7 +820,58 @@ hr {
 		margin: 20px 0;
 	}
 
-	.home-footer aside.cap-social {
+	#mc_embed_signup {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 650px) { /* aligns with parent theme */
+	blockquote:before {
+		display: none;
+	}
+
+	#mc_embed_signup {
+		font-size: 12px;
+	}
+
+	.home-footer aside.testimonial h3 {
+		margin: 0;
+	}
+
+	aside.cap-social-footer {
+		font-size: 45px;
+	}
+
+	.cap-orange-box #mc-embedded-subscribe {
+		margin: 14px 0 0 -12px;
+		float: none;
+		background: url('yes_please.png');
+		width: 300px;
+		height: 72px;
+		background-position-y: 72px;
+		background-position-x: -28px;
+	}
+
+	.cap-orange-box #mc-embedded-subscribe:hover {
+		background-position-y: 72px;
+	}
+
+	.cap-orange-box > p {
+		margin-right: .625em;
+	}
+}
+
+@media (max-width: 400px) {
+	#page {
 		width: 100%;
+	}
+
+	aside.cap-social-footer {
+		width: 100%;
+		font-size: 57px;
+	}
+
+	#mc_embed_signup {
+		font-size: 9px;
 	}
 }
