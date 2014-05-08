@@ -491,6 +491,7 @@ aside.testimonial p {
 .cap-orange-box #mc-embedded-subscribe {
 	background: url('yes_please3.png') no-repeat;
 	margin-top: -207px;
+	margin-right: 10%;
 	width: 207px;
 	height: 208px;
 	float: right;
@@ -601,6 +602,16 @@ hr {
 	margin: 0 -8.7%;
 	padding: 4%;
 	box-sizing: border-box;
+	color: #ffffff;
+	font-size: 1.2em;
+}
+
+.cap-orange-box div + div.mc-field-group {
+	margin-right: 125px;
+}
+
+.cap-orange-box > p {
+	margin-right: 225px;
 }
 
 .widget_tag_cloud {
@@ -683,7 +694,11 @@ hr {
 	}
 
 	#mc_embed_signup {
-		font-size: 16px;
+		font-size: 14px;
+	}
+
+	.cap-orange-box #mc-embedded-subscribe {
+		margin-right: 0;
 	}
 }
 
@@ -746,7 +761,7 @@ hr {
 	}
 
 	#mc_embed_signup {
-		font-size: 12px;
+		font-size: 11px;
 	}
 }
 
