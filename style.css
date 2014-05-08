@@ -713,29 +713,8 @@ hr {
 	}
 
 	time.entry-date {
-		font-size: 14px;
-		color: #ea6327;
-		background-color: #ffffff;
-		display: inline;
-		position: relative;
-		left: 0;
-		top: 0;
-	}
-
-	time.entry-date span {
-		display: inline;
-	}
-
-	time.entry-date span:nth-child(2) {
-		margin: 0 6px;
-		font-size: 1em;
-	}
-	time.entry-date span:nth-child(2):after {
-		content: ",";
-	}
-
-	.home-footer time.entry-date {
-		display: none;
+		left: -100px;
+		font-size: 12px;
 	}
 
 	.home-footer .entry-title a {
@@ -844,6 +823,32 @@ hr {
 	.home.page .home-footer #mc_embed_signup {
 		width: 100%;
 		margin: 20px 0;
+	}
+
+	time.entry-date {
+		font-size: 14px;
+		color: #ea6327;
+		background-color: #ffffff;
+		display: inline;
+		position: relative;
+		left: 0;
+		top: 0;
+	}
+
+	time.entry-date span {
+		display: inline;
+	}
+
+	time.entry-date span:nth-child(2) {
+		margin: 0 6px;
+		font-size: 1em;
+	}
+	time.entry-date span:nth-child(2):after {
+		content: ",";
+	}
+
+	.home-footer time.entry-date {
+		display: none;
 	}
 
 	#mc_embed_signup {
