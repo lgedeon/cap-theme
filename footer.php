@@ -40,8 +40,9 @@
 		</aside>
 
 		<?php cap_do_testimonial() ?>
+		<div class="clear"></div>
 
-		<aside class="cap-social" style="font-size: 57px;">
+		<aside class="cap-social cap-social-footer">
 			<a href="http://eepurl.com/MdPm1" target="_blank"></a>
 			<a href="http://caroleannctd.tumblr.com/" target="_blank" style="background-position-x: -1em;"></a>
 			<a href="http://www.instagram.com/caroleannctd" target="_blank" style="background-position-x: -2em;"></a>

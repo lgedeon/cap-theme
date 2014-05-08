@@ -508,18 +508,20 @@ img[class*="align"], img[class*="wp-image-"], #content .gallery .gallery-icon im
 	border: none;
 }
 
-.home-footer aside.cap-social {
-	width: 551px;
+aside.cap-social-footer {
+	font-size: 57px;
+	width: 9em;
 	padding: 0;
-	margin: 20px auto;
+	margin: 1em auto;
 	border: none;
 	float: none;
+	min-height: 1em;
 }
 
 .cap-social a {
 	width: 1em;
 	height: 1em;
-	margin: 1em .14em;
+	margin: .1em .14em;
 	background-size: 7em 2em;
 	background-image: url('social.png');
 	display: block;
@@ -554,6 +556,11 @@ div.cap-social a {
 	position: absolute;
 	left: -30px;
 	top: -5px;
+}
+
+.cap-social-rss a:first-child {
+	clear: left;
+	margin-bottom: 0;
 }
 
 #searchform input[type=text] {
@@ -681,6 +688,10 @@ hr {
 }
 
 @media ( max-width: 1120px ) {
+	#page {
+		width: 90%;
+	}
+
 	#access a {
 		font-size: 20px;
 		padding: 0 0.625em;
