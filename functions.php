@@ -41,20 +41,22 @@ function cap_do_mailchimp() {
 	<?php
 }
 
-function cap_add_typekit_header_prod() {
+function cap_add_typekit_header() {
+	$url = get_option( 'siteurl' );
+	if ( false !== strpos( $url, 'kdari.com' ) || false !== strpos( $url, '.dev' ) ) {
+		// development account
+		$src = "//use.typekit.net/iuj8kod.js";
+	} else {
+		// production account
+		$src = "//use.typekit.net/cih8ljz.js";
+	}
+
 	?>
-<script type="text/javascript" src="//use.typekit.net/cih8ljz.js"></script>
+<script type="text/javascript" src="<?php echo $src ?>"></script>
 <script type="text/javascript">try{Typekit.load();}catch(e){console.log('typekit failed')}</script>
 	<?php
 }
-
-function cap_add_typekit_header_dev() {
-	?>
-	<script type="text/javascript" src="//use.typekit.net/iuj8kod.js"></script>
-	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-	<?php
-}
-add_filter( 'wp_head', 'cap_add_typekit_header_dev' );
+add_filter( 'wp_head', 'cap_add_typekit_header' );
 
 function cap_remove_sidebars() {
 	// Unregister some of the parent theme's sidebars
