@@ -717,6 +717,10 @@ hr {
 		font-size: 12px;
 	}
 
+	.home-footer time.entry-date {
+		display: none;
+	}
+
 	.home-footer .entry-title a {
 		font-size: 24px;
 	}
@@ -845,10 +849,6 @@ hr {
 	}
 	time.entry-date span:nth-child(2):after {
 		content: ",";
-	}
-
-	.home-footer time.entry-date {
-		display: none;
 	}
 
 	#mc_embed_signup {
