@@ -67,6 +67,7 @@ a,
 
 .hentry {
 	border-bottom: none;
+	padding-bottom: 0;
 }
 
 .entry-title a:hover,
@@ -269,8 +270,16 @@ footer.entry-meta,
 }
 
 #content {
-	margin-right: 420px;
+	margin-right: 397px;
 	width: auto;
+	border-right: 3px dotted #b3b1b4;
+	padding-right: 23px;
+}
+
+.single-format-standard #content,
+.page-template-default #content {
+	border-right-width: 0px;
+	padding-right: 0px;
 }
 
 #secondary {
@@ -282,6 +291,7 @@ footer.entry-meta,
 	-moz-border-image: url('dots.png') 25% repeat;
 	border-image: url('dots.png') 25% repeat;
 	padding: 0 35px;
+	background-color: #ffffff;
 }
 
 #secondary.widget-area .widget + .widget {
@@ -291,6 +301,15 @@ footer.entry-meta,
 	-moz-border-image: url('dots.png') 25% repeat;
 	border-image: url('dots.png') 25% repeat;
 }
+
+#content,
+#secondary,
+#secondary.widget-area .widget + .widget {
+	-webkit-border-image: url('dots.png') 25% repeat;
+	-moz-border-image: url('dots.png') 25% repeat;
+	border-image: url('dots.png') 25% repeat;
+}
+
 
 /* class .cap-superwide makes a div extend under a short-sidebar */
 .cap-superwide {
@@ -801,7 +820,8 @@ hr {
 		line-height: 1.5em;
 	}
 
-	#secondary {
+	#secondary,
+	#content {
 		border: none;
 	}
 
