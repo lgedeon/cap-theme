@@ -282,6 +282,14 @@ footer.entry-meta,
 	-moz-border-image: url('dots.png') 25% repeat;
 	border-image: url('dots.png') 25% repeat;
 	padding: 0 35px;
+	/* hack to make sidebar border extend all the way down */
+	margin-bottom: -700px;
+	padding-bottom: 700px;
+}
+
+#main {
+	/* other half of sidebar hack */
+	overflow: hidden;
 }
 
 #secondary.widget-area .widget + .widget {
