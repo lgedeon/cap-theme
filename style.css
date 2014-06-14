@@ -549,7 +549,6 @@ aside.cap-social-footer {
 }
 
 .cap-social a:hover {
-	background-position-y: -1em;
 	text-decoration: none;
  }
 
@@ -582,6 +581,24 @@ div.cap-social a {
 	clear: left;
 	margin-bottom: 0;
 }
+
+/*
+ * List out each sprite element, because firefox doesn't support background-position-x/-y
+ */
+.cap-social .social-one   { background-position: 0 0; }
+.cap-social .social-two   { background-position: -1em 0; }
+.cap-social .social-three { background-position: -2em 0; }
+.cap-social .social-four  { background-position: -3em 0; }
+.cap-social .social-five  { background-position: -4em 0; }
+.cap-social .social-six   { background-position: -5em 0; }
+.cap-social .social-seven { background-position: -6em 0; }
+.cap-social .social-one:hover   { background-position:  0   -1em; }
+.cap-social .social-two:hover   { background-position: -1em -1em; }
+.cap-social .social-three:hover { background-position: -2em -1em; }
+.cap-social .social-four:hover  { background-position: -3em -1em; }
+.cap-social .social-five:hover  { background-position: -4em -1em; }
+.cap-social .social-six:hover   { background-position: -5em -1em; }
+.cap-social .social-seven:hover { background-position: -6em -1em; }
 
 #searchform input[type=text] {
 	background: #eee;
@@ -903,7 +920,7 @@ hr {
 	}
 
 	.cap-orange-box #mc-embedded-subscribe:hover {
-		background-position: 0 72px;
+		background-position: -28px 0;
 	}
 
 	.cap-orange-box > p {

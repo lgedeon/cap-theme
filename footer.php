@@ -43,13 +43,13 @@
 		<div class="clear"></div>
 
 		<aside class="cap-social cap-social-footer">
-			<a href="http://eepurl.com/MdPm1" target="_blank"></a>
-			<a href="http://caroleannctd.tumblr.com/" target="_blank" style="background-position: -1em 0;"></a>
-			<a href="http://www.instagram.com/caroleannctd" target="_blank" style="background-position: -2em 0;"></a>
-			<a href="https://www.facebook.com/caroleannctd" target="_blank" style="background-position: -3em 0;"></a>
-			<a href="http://www.pinterest.com/caroleannctd" target="_blank" style="background-position: -4em 0;"></a>
-			<a href="http://twitter.com/caroleannctd" target="_blank" style="background-position: -5em 0;"></a>
-			<a href="http://lnkd.in/3J2vV8" target="_blank" style="background-position: -6em 0;"></a>
+			<a href="http://eepurl.com/MdPm1" target="_blank" class="social-one"></a>
+			<a href="http://caroleannctd.tumblr.com/" target="_blank" class="social-two"></a>
+			<a href="http://www.instagram.com/caroleannctd" target="_blank" class="social-three"></a>
+			<a href="https://www.facebook.com/caroleannctd" target="_blank" class="social-four"></a>
+			<a href="http://www.pinterest.com/caroleannctd" target="_blank" class="social-five"></a>
+			<a href="http://twitter.com/caroleannctd" target="_blank" class="social-six"></a>
+			<a href="http://lnkd.in/3J2vV8" target="_blank" class="social-seven"></a>
 		</aside>
 	</section>
 <?php endif; ?>
