@@ -278,8 +278,8 @@ footer.entry-meta,
 
 .single-format-standard #content,
 .page-template-default #content {
-	border-right-width: 0px;
-	padding-right: 0px;
+	border-right-width: 0;
+	padding-right: 0;
 }
 
 #secondary {
@@ -375,7 +375,7 @@ footer.entry-meta,
 	content: " ";
 	display: block;
 	width: 99.1%;
-	height: 0px;
+	height: 0;
 	border-color: #a74516 transparent transparent;
 	top: 100%;
 	left: 5px;
@@ -497,7 +497,7 @@ aside.testimonial p {
 
 #mc-embedded-subscribe:hover,
 #mc-embedded-subscribe:focus {
-	background-position-y: -1em;
+	background-position: 0 -1em;
 }
 
 #secondary #mc-embedded-subscribe {
@@ -517,7 +517,7 @@ aside.testimonial p {
 }
 
 .cap-orange-box #mc-embedded-subscribe:hover {
-	background-position-y: -208px;
+	background-position: 0 -208px;
 }
 
 .cap-orange-box p {
@@ -899,12 +899,11 @@ hr {
 		background: url('yes_please.png');
 		width: 300px;
 		height: 72px;
-		background-position-y: 72px;
-		background-position-x: -28px;
+		background-position: -28px 72px;
 	}
 
 	.cap-orange-box #mc-embedded-subscribe:hover {
-		background-position-y: 72px;
+		background-position: 0 72px;
 	}
 
 	.cap-orange-box > p {
